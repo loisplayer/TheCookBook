@@ -20,16 +20,15 @@
       background: rgba(0,0,0,0.5);
     }
     li {
-      display: inline;
       padding: 0px 10px 0px 10px;
     }
     article {
       max-width: 500px;
       padding: 20px;
       margin: 0 auto;
-    }
-    @media (max-width: 500px) {
-      h1 {
+        }
+            
+          h1 {
         font-size: 36px;
         padding: 5px;
       }
@@ -37,9 +36,15 @@
         padding: 5px;
         display: block;
       }
-    }
 
     .header-image {
       background:url("./header.png");
-      display: flex;
+    height: 500px;
+    position: relative;
+    }
+
+    .menu{
+      width: 100%;
+     position: absolute;
+     bottom: 0;
     }
