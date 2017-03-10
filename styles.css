@@ -17,13 +17,6 @@ h1 {
 h2 {color:black;
   font-size:16px;
   font-family: "Muli";
-  padding:50px;
-  vertical-align: center;
-}
-
-h3 {color:black;
-  font-size:16px;
-  font-family: "Muli";
   vertical-align: center;
 }
 
@@ -32,11 +25,7 @@ img {
   border: 2px solid white;
   border-radius: 20px;
 }
-ul {
-  padding: 10px;
-  background: rgba(0,0,0,0.7);
-}
-li {
+.menu li {
   padding: 0px 10px 0px 10px;
    display: inline;
    width: 30px;
@@ -46,11 +35,6 @@ article {
   padding: 20px;
   margin: 0 auto;
 }
-li {
-  padding: 10px;
-  display:inline;
-}
-
 
 body { 
   font-size: 14px; 
@@ -63,10 +47,15 @@ body {
   position: relative;
 }
 
+.content {
+  padding:50px;
+}
 .menu {
   width: 100%;
   position: absolute;
   bottom: 0;
+  padding: 10px;
+  background: rgba(0,0,0,0.7);
 }
 .recipes {
   width:100%;
