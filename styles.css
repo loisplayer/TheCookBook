@@ -83,4 +83,12 @@ body {
   bottom: 0;
 }
 
-
+.iwona p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+.loisabout p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+}
