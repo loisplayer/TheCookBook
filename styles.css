@@ -16,9 +16,10 @@ h1 {
 
 h2 {
   color:black;
-  font-size:16px;
+  font-size:32px;
   font-family: "Muli";
   vertical-align: center;
+  padding-bottom: 10px;
 }
 
 img {
@@ -34,7 +35,7 @@ img {
    width: 30px;
 }
 article {
-  max-width: 750px;
+  max-width: 760px;
   padding: 20px;
   margin: 0 auto;
 }
@@ -44,7 +45,7 @@ article {
 }
 
 body { 
-  font-size: 14px; 
+  font-size: 15px; 
   font-family: 'Muli';
 }
 
