@@ -91,4 +91,9 @@ body {
   text-align: justify;
   text-justify: inter-word;
 }
+
+.Welcome p {
+   text-align: justify;
+  text-justify: inter-word;
+}
 }
