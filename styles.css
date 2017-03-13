@@ -96,13 +96,9 @@ body {
    text-align: justify;
   text-justify: inter-word;
 }
-.input[type=text] {
+input[type=text] {
     width: 130px;
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
-}
-
-/* When the input field gets focus, change its width to 20% */
-input[type=text]:focus {
-    width: 100%;
+    display: inline;
 }
